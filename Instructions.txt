@@ -1,0 +1,20 @@
+Requirement
+
+ Please read it carefully and on Friday 10AM CEST we can have a Q&A session.
+
+This task is meant to verify the candidates understanding of different concepts (REST, Messaging, Websockets) and show the pragmatic approach the candidate has. The completion is estimated in maximum 20 work hours, and we expect to have a working submission in one week.
+The Task:
+·         Setup a running environment aligned with the technologies mentioned below.
+·         Develop the application in ASP.NET MVC
+·         A REST endpoint is taking a dummy JSON input, and the server puts the REST payload on Pub/Sub channels (Redis or the one the candidate knows the best for this task)
+·         A Consumer is running the application and processes the freshly received message and persists the message in a SQL/NoSQL database (Redis or the one the candidate knows the best)
+·         A REST endpoint is implemented for getting all the messages persisted in JSON format
+·         The message should also be pushed through Websockets for listening browser clients at the time the message was received on the REST endpoint
+·         A simple html page is implemented to show the real time message delivery
+Requirements:
+·         All tasks are solved in the solution
+·         The application has a solid commit history
+·         The application is build for scale
+·         The application is build for test
+ 
+Note : please setup a GitHub repository to host the code and share it with your finale note for code review.
