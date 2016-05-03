@@ -7,6 +7,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Threading;
 using System.Web;
 using System.Web.Helpers;
+using ServiceStack.Redis;
 
 namespace RedisRestAPI.Models
 {
@@ -19,11 +20,6 @@ namespace RedisRestAPI.Models
             List<SubscriptionMap> Map = new List<SubscriptionMap>();
             if (Response != null && Response.Count() > 0)
             {
-                //MemoryStream memStream = new MemoryStream();
-                //BinaryFormatter BinForm = new BinaryFormatter();
-                //memStream.Write(Response, 0, Response.Length);
-                //memStream.Seek(0, SeekOrigin.Begin);
-                //object Map_string = BinForm.Deserialize(memStream);
                 Map = Json.Decode(Response,typeof(List<SubscriptionMap>));   
             }
             return Map;
@@ -51,10 +47,8 @@ namespace RedisRestAPI.Models
         public bool SaveMessage(string Channel, string MessageContent)
         {
             Message msg = new Message() { ForChannel = Channel, MessageContent = MessageContent, Id = Guid.NewGuid() };
-            RedisServerChat.redisClient.Quit();
-            Thread.Sleep(3000);
-            RedisServerChat.redisClient.SetEntryInHash("Messages", msg.Id.ToString(), Json.Encode(msg));
-            Worker.StartListener();
+            RedisClient client = new RedisClient();
+            client.SetEntryInHash("Messages", msg.Id.ToString(), Json.Encode(msg));
             return true;
         }
         public bool GetALLMessage()

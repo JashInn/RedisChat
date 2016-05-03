@@ -7,14 +7,20 @@
             type: "POST",
             url: "Home/MessageListener",
             success: function (data) {
+                //alert(data);
                 $("#lblResult").empty();
-                
-                $("#lblResult").append(data[0]);
+                $.each(data,
+                    function (i, val) {
+                        //alert(data[i]); alert(data.data[i]);
+                        $("#lblResult").append(data[i]+"</br>");
+                    }
+                    );
+
 
             }
         });
-    }, 10000);
+    }, 5000);
 
-    
+
 
 });
