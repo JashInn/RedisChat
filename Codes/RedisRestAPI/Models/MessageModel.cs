@@ -6,6 +6,7 @@ using System.Web;
 
 namespace RedisRestAPI.Models
 {
+
     public static class MessageModel
     {
         static MessageModel()
@@ -22,7 +23,9 @@ namespace RedisRestAPI.Models
         {
             MessageContent = string.Empty;
             ForChannel = string.Empty;
+            Id = new Guid();
         }
+        public Guid Id { get; set; }
         public string MessageContent { get; set; }
         public string ForChannel { get; set; }
     }
@@ -34,6 +37,7 @@ namespace RedisRestAPI.Models
         }
         public static RedisClient redisClient { get; set; }
     }
+    
     public class SubscriptionMap 
     {
         public string UKey { get; set; }

@@ -30,3 +30,5 @@ E:\myd\RedishTest\TestRedis\TestRedis.Tests\bin\Debug\ServiceStack.Common.dll
 E:\myd\RedishTest\TestRedis\TestRedis.Tests\bin\Debug\ServiceStack.Redis.xml
 E:\myd\RedishTest\TestRedis\TestRedis.Tests\bin\Debug\ServiceStack.Text.xml
 E:\myd\RedishTest\TestRedis\TestRedis.Tests\bin\Debug\ServiceStack.Common.xml
+E:\myd\RedishTest\TestRedis\TestRedis.Tests\bin\Debug\RestSharp.dll
+E:\myd\RedishTest\TestRedis\TestRedis.Tests\bin\Debug\RestSharp.xml

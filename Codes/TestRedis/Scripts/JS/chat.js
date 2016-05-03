@@ -1,38 +1,19 @@
 ﻿$(document).ready(function () {
     var a = "redischat";
 
-    $("#btnSubmit").click(function () {
+    setInterval(function () {
+
         $.ajax({
-            url: '/Listener/Index_sub',
-            type: 'POST',
-            data: 'message=' + a,
+            type: "POST",
+            url: "Home/MessageListener",
             success: function (data) {
-                setInterval(function () {
+                $("#lblResult").empty();
+                
+                $("#lblResult").append(data[0]);
 
-                    $.ajax({
-                        type: "POST",
-                        url: "Listener/Index_GetMessages",
-                        success: function (data) {
-                            //$("#lblResult").empty();
-                            $("#lblResult").append(data[0]);
-
-                        }
-                    });
-                }, 3000);
-            },
-      
+            }
         });
-    });
-    $("#btnUnsub").click(function () {
-        $.ajax({
-            url: '/Listener/Index_Unsub',
-            type: 'POST',
-            data: 'message=' + a,
-            success: function (data) {
-
-            },
-        });
-    });
+    }, 10000);
 
     
 

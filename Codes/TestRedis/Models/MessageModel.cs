@@ -6,6 +6,11 @@ using System.Web;
 
 namespace TestRedis.Models
 {
+    public class SubscriptionMap
+    {
+        public string UKey { get; set; }
+        public string Channel { get; set; }
+    }
     public static class MessageModel
     {
         static MessageModel() 

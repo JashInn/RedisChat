@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Set Channel";
+}
+
+<h2>@ViewBag.Title</h2>
+  
+  @using (Html.BeginForm("SetChannel", "Home"))
+    {
+        <span>Subscribe Channel</span>@Html.TextBox("ChannelName")
+        <input id="btnSubmit" type="submit" value="Subscribe" />
+        
+    }

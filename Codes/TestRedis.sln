@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRedis.Tests", "TestRedi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisRestAPI", "RedisRestAPI\RedisRestAPI.csproj", "{4FDA6617-EFE0-4AB8-99FF-38132AD8FB1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisRestAPI.Tests", "RedisRestAPI.Tests\RedisRestAPI.Tests.csproj", "{66D8BC0D-AF98-4F9F-82F3-F73B40914ACD}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,10 +25,6 @@ Global
 		{4FDA6617-EFE0-4AB8-99FF-38132AD8FB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FDA6617-EFE0-4AB8-99FF-38132AD8FB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FDA6617-EFE0-4AB8-99FF-38132AD8FB1B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{66D8BC0D-AF98-4F9F-82F3-F73B40914ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{66D8BC0D-AF98-4F9F-82F3-F73B40914ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{66D8BC0D-AF98-4F9F-82F3-F73B40914ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{66D8BC0D-AF98-4F9F-82F3-F73B40914ACD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

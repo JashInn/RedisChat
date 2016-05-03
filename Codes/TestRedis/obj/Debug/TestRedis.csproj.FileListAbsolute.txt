@@ -30,3 +30,5 @@ E:\myd\RedishTest\TestRedis\TestRedis\bin\System.Web.WebPages.Razor.xml
 E:\myd\RedishTest\TestRedis\TestRedis\obj\Debug\TestRedis.csprojResolveAssemblyReference.cache
 E:\myd\RedishTest\TestRedis\TestRedis\obj\Debug\TestRedis.dll
 E:\myd\RedishTest\TestRedis\TestRedis\obj\Debug\TestRedis.pdb
+E:\myd\RedishTest\TestRedis\TestRedis\bin\RestSharp.dll
+E:\myd\RedishTest\TestRedis\TestRedis\bin\RestSharp.xml

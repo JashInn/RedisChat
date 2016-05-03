@@ -8,10 +8,10 @@ namespace RedisRestAPI.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index(string Ukey)
+        public ActionResult Index()
         {
-            Common com = new Common();
-            string MyChannel = com.GetAllSubscriptions().Where(sub => sub.UKey.Equals(Ukey)).Select(sub => sub.Channel).ToList().FirstOrDefault();
+            //Common com = new Common();
+            //string MyChannel = com.GetAllSubscriptions().Where(sub => sub.UKey.Equals(Ukey)).Select(sub => sub.Channel).ToList().FirstOrDefault();
 
             return View();
         }

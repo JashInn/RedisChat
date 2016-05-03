@@ -59,7 +59,6 @@ E:\myd\RedishTest\TestRedis\RedisRestAPI\bin\ko\System.Spatial.resources.dll
 E:\myd\RedishTest\TestRedis\RedisRestAPI\bin\ru\System.Spatial.resources.dll
 E:\myd\RedishTest\TestRedis\RedisRestAPI\bin\zh-Hans\System.Spatial.resources.dll
 E:\myd\RedishTest\TestRedis\RedisRestAPI\bin\zh-Hant\System.Spatial.resources.dll
-E:\myd\RedishTest\TestRedis\RedisRestAPI\obj\Debug\RedisRestAPI.csprojResolveAssemblyReference.cache
 E:\myd\RedishTest\TestRedis\RedisRestAPI\obj\Debug\RedisRestAPI.dll
 E:\myd\RedishTest\TestRedis\RedisRestAPI\obj\Debug\RedisRestAPI.pdb
 E:\myd\RedishTest\TestRedis\RedisRestAPI\bin\ServiceStack.Common.dll
@@ -69,3 +68,10 @@ E:\myd\RedishTest\TestRedis\RedisRestAPI\bin\ServiceStack.Text.dll
 E:\myd\RedishTest\TestRedis\RedisRestAPI\bin\ServiceStack.Common.xml
 E:\myd\RedishTest\TestRedis\RedisRestAPI\bin\ServiceStack.Redis.xml
 E:\myd\RedishTest\TestRedis\RedisRestAPI\bin\ServiceStack.Text.xml
+E:\myd\RedishTest\TestRedis\RedisRestAPI\bin\System.Net.Http.Formatting.dll
+E:\myd\RedishTest\TestRedis\RedisRestAPI\bin\System.Web.Http.dll
+E:\myd\RedishTest\TestRedis\RedisRestAPI\bin\System.Web.Http.WebHost.dll
+E:\myd\RedishTest\TestRedis\RedisRestAPI\bin\System.Net.Http.Formatting.xml
+E:\myd\RedishTest\TestRedis\RedisRestAPI\bin\System.Web.Http.xml
+E:\myd\RedishTest\TestRedis\RedisRestAPI\bin\System.Web.Http.WebHost.xml
+E:\myd\RedishTest\TestRedis\RedisRestAPI\obj\Debug\RedisRestAPI.csprojResolveAssemblyReference.cache
